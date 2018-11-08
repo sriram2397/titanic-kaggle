@@ -5,3 +5,6 @@ It also contains feature engineering. You can supress them from compiling to get
 <br>
 <br>
 'train.csv' and 'test.csv' are the train and test data while 'gender_submission.csv' is a sample format of how the final prediction must be submitted on Kaggle.
+<br>
+<br>
+The warning in the Logistic Regression is not an issue and can be avoided by mentioning the solver parameter in the LogisticRegression().
